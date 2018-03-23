@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="RavennaSoftware.UWPBadge.TestApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPBadge.TestApp"
+    xmlns:my="using:RavennaSoftware.SDK"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" HorizontalAlignment="Left">
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="txtBigID" Text="9wzdncrfhwqt" Width="200"/>
+            <Button Content="Load Badge" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Click="Button_Click" Margin="10,0,0,0"/>
+        <TextBlock Text="Enter the StoreID of your app to test your own content." Margin="10,0,0,0" VerticalAlignment="Center" /></StackPanel>
+        <ScrollViewer VerticalScrollBarVisibility="Visible" VerticalAlignment="Top" Height="700" Margin="0,15,0,0">
+                <Grid VerticalAlignment="Top">
+            <VariableSizedWrapGrid Orientation="Horizontal" >
+            <my:UWPBadge x:Name="thebadge_no_id" Margin="3" />
+                <!-- Badge for Call Of Duty-->
+            <my:UWPBadge x:Name="thebadge_cod" StoreID="bv0nsd4nn4v4"/>
+            <my:UWPBadge x:Name="thebadge_penbook" StoreID="9pl4gx47gt7k" Margin="3" />
+            <my:UWPBadge x:Name="thebadge_cervino" StoreID="9nblggh4whph" Margin="3" />
+            <my:UWPBadge x:Name="thebadge_warofdragon" StoreID="9mwgcvxrvrrd" Margin="3" />
+            <my:UWPBadge x:Name="thebadge_minecraft" StoreID="9nblggh2jhxj" Margin="3" />
+            <my:UWPBadge x:Name="thebadge_dealpigs" StoreID="9wzdncrdz0hg" Margin="3" />
+            <my:UWPBadge x:Name="thebadge_diarium" StoreID="9nblggh4vzz1" Margin="3" />
+            <my:UWPBadge x:Name="thebadge_netflix" StoreID="9wzdncrfj3tj" Margin="3" />
+            <my:UWPBadge x:Name="thebadge_home" StoreID="9nfznr0vfclq" Margin="3" />
+            <my:UWPBadge x:Name="thebadge_wsb" StoreID="9wzdncrdz0hk" Margin="3" />
+        </VariableSizedWrapGrid>
+                </Grid>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Page>

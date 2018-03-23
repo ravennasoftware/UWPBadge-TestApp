@@ -1,0 +1,13 @@
+#Ignore thumbnails created by Windows
+Thumbs.db
+ 
+#Ignore files created by Visual Studio
+*.user
+*.suo
+*.jfm
+*.dbmdl
+*.sln.docstates
+**[Oo]bj/
+**[Bb]in/
+[Bb]ld/
+[Aa]pp[Pp]ackages/
