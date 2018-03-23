@@ -6,3 +6,5 @@ A UWP test app that shows what the UWPBadge control looks like.
 
 
 **See more information on UWPBadge nuget package here: <a href="https://www.nuget.org/packages/RavennaSoftware.UWPBadge/">RavennaSoftware.UWPBadge</a>**
+
+Feedback welcome!
