@@ -1,7 +1,7 @@
 
 ![Example App for UWPBadge](https://redir.blob.core.windows.net/assets/BadgeCapture.PNG "Help market your apps!")
 
-# UWPBadge-TestApp
+# UWPBadge-TestApp (Alpha Release)
 A UWP test app that shows what the UWPBadge control looks like.
 
 
