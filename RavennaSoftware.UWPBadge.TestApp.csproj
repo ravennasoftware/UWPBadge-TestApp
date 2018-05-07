@@ -130,7 +130,7 @@
       <Version>6.0.8</Version>
     </PackageReference>
     <PackageReference Include="RavennaSoftware.UWPBadge">
-      <Version>2.0.0</Version>
+      <Version>2.0.5</Version>
     </PackageReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
