@@ -20,7 +20,7 @@
                     <VariableSizedWrapGrid Orientation="Horizontal" >
                         <my:UWPBadge x:Name="thebadge_no_id" Margin="3" />
                         <!-- Badge for Call Of Duty-->
-                        <my:UWPBadge x:Name="thebadge_cod" StoreID="bv0nsd4nn4v4"/>
+                        <my:UWPBadge x:Name="thebadge_cod" StoreID="9p2n57mc619k"/>
                         <my:UWPBadge x:Name="thebadge_penbook" StoreID="9pl4gx47gt7k" Margin="3" />
                         <my:UWPBadge x:Name="thebadge_cervino" StoreID="9nblggh4whph" Margin="3" />
                         <my:UWPBadge x:Name="thebadge_warofdragon" StoreID="9mwgcvxrvrrd" Margin="3" />
